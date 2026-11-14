@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "svc-001",
+    "name": "Netflix",
+    "category": "Streaming",
+    "description": "Premium streaming with original series, cinema releases, and a large library of on-demand content.",
+    "typicalPlans": [
+      { "planName": "Standard", "priceUSD": 15.99, "cycle": "Monthly" },
+      { "planName": "Premium", "priceUSD": 19.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 199.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from your account settings before your renewal date to avoid a new month being charged.",
+    "savingTip": "A family or annual plan can reduce the effective monthly price if you share it or watch regularly.",
+    "tags": ["streaming", "video", "movies", "series", "tv"],
+    "createdAt": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "id": "svc-002",
+    "name": "Spotify",
+    "category": "Music",
+    "description": "Music streaming with playlists, podcasts, and offline listening for personal or family use.",
+    "typicalPlans": [
+      { "planName": "Premium Individual", "priceUSD": 10.99, "cycle": "Monthly" },
+      { "planName": "Student", "priceUSD": 5.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 16.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Pause or cancel from the subscription section in your account before your next billing date.",
+    "savingTip": "Students or a family plan can be a cheaper way to keep the service if several people use it.",
+    "tags": ["music", "podcasts", "playlist", "audio", "streaming"],
+    "createdAt": "2026-09-03T00:00:00.000Z"
+  },
+  {
+    "id": "svc-003",
+    "name": "YouTube Premium",
+    "category": "Streaming",
+    "description": "Ad-free video playback, background play, and offline downloads across devices.",
+    "typicalPlans": [
+      { "planName": "Premium Individual", "priceUSD": 13.99, "cycle": "Monthly" },
+      { "planName": "Student", "priceUSD": 7.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 22.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "End the subscription on the Google account billing page to stop future renewals.",
+    "savingTip": "If you already have a family plan, check whether a shared premium account is more economical.",
+    "tags": ["youtube", "video", "premium", "streaming", "ad-free"],
+    "createdAt": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "svc-004",
+    "name": "Disney+",
+    "category": "Streaming",
+    "description": "Family and franchise streaming including Disney, Marvel, Star Wars, and Pixar content.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 7.99, "cycle": "Monthly" },
+      { "planName": "Premium", "priceUSD": 13.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 139.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the billing section in your account before the renewal date and confirm the stop.",
+    "savingTip": "Annual billing is usually cheaper than paying month to month if the service is used often.",
+    "tags": ["movies", "family", "disney", "streaming", "kids"],
+    "createdAt": "2026-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "svc-005",
+    "name": "Amazon Prime Video",
+    "category": "Streaming",
+    "description": "On-demand movies and TV shows, often bundled with delivery benefits for Prime members.",
+    "typicalPlans": [
+      { "planName": "Prime Monthly", "priceUSD": 14.99, "cycle": "Monthly" },
+      { "planName": "Prime Annual", "priceUSD": 139.99, "cycle": "Yearly" },
+      { "planName": "Prime Video Standalone", "priceUSD": 8.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Use the Amazon account settings to manage Prime or Prime Video subscriptions before renewal.",
+    "savingTip": "If delivery benefits are not used, a standalone video plan may be cheaper than full Prime.",
+    "tags": ["amazon", "video", "shopping", "delivery", "prime"],
+    "createdAt": "2026-09-06T00:00:00.000Z"
+  },
+  {
+    "id": "svc-006",
+    "name": "Hulu",
+    "category": "Streaming",
+    "description": "Live TV, next-day television episodes, and a large library of current and classic shows.",
+    "typicalPlans": [
+      { "planName": "Ad-Supported", "priceUSD": 7.99, "cycle": "Monthly" },
+      { "planName": "No Ads", "priceUSD": 17.99, "cycle": "Monthly" },
+      { "planName": "Live TV", "priceUSD": 76.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Cancel from the subscription management page and check whether there is a cancellation hold on live TV.",
+    "savingTip": "The ad-supported tier can cut the monthly cost notably if you are comfortable with ads.",
+    "tags": ["tv", "live", "shows", "streaming", "hulu"],
+    "createdAt": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "svc-007",
+    "name": "Max",
+    "category": "Streaming",
+    "description": "Streaming library for HBO, Warner Bros., and curated premium programming.",
+    "typicalPlans": [
+      { "planName": "With Ads", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Ad-Free", "priceUSD": 15.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 169.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Use your account billing page to switch off auto-renew before the billing cycle ends.",
+    "savingTip": "Watch for annual discounts or bundle deals if you are already using other Warner services.",
+    "tags": ["hbo", "movies", "max", "series", "streaming"],
+    "createdAt": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "svc-008",
+    "name": "Apple TV+",
+    "category": "Streaming",
+    "description": "Apple's original streaming service with premium series and family entertainment.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 99.99, "cycle": "Yearly" },
+      { "planName": "Bundle", "priceUSD": 14.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the Apple ID subscriptions menu to avoid future renewals.",
+    "savingTip": "Bundled Apple One offers can give better value if you also use other Apple services.",
+    "tags": ["apple", "tv", "series", "streaming", "originals"],
+    "createdAt": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "svc-009",
+    "name": "Discovery+",
+    "category": "Streaming",
+    "description": "Real-life and documentary streaming with discovery, lifestyle, and nature programming.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 4.99, "cycle": "Monthly" },
+      { "planName": "Premium", "priceUSD": 8.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 69.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Turn off auto-renew in the account billing settings before the renewal date.",
+    "savingTip": "If you only watch documentaries occasionally, a shorter plan or ad-supported tier may be enough.",
+    "tags": ["documentaries", "discovery", "nature", "streaming", "reality"],
+    "createdAt": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "svc-010",
+    "name": "Tidal",
+    "category": "Music",
+    "description": "High-quality music streaming with premium audio and artist-first features and exclusive content.",
+    "typicalPlans": [
+      { "planName": "HiFi", "priceUSD": 10.99, "cycle": "Monthly" },
+      { "planName": "HiFi Plus", "priceUSD": 19.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 29.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the account billing settings before the renewal date to stop charges.",
+    "savingTip": "A family plan can be cheaper than paying for multiple single-user plans if the whole household listens.",
+    "tags": ["audio", "music", "hifi", "streaming", "podcast"],
+    "createdAt": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "svc-011",
+    "name": "Apple Music",
+    "category": "Music",
+    "description": "Music library with lossless audio, curated editorial picks, and seamless iPhone integration.",
+    "typicalPlans": [
+      { "planName": "Individual", "priceUSD": 10.99, "cycle": "Monthly" },
+      { "planName": "Student", "priceUSD": 5.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 16.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Manage subscriptions in the Apple ID menu and turn off auto-renew.",
+    "savingTip": "Student pricing and family sharing can cut the cost sharply for multiple users.",
+    "tags": ["apple", "music", "audio", "streaming", "playlist"],
+    "createdAt": "2026-09-12T00:00:00.000Z"
+  },
+  {
+    "id": "svc-012",
+    "name": "Deezer",
+    "category": "Music",
+    "description": "Music streaming service with mood playlists, offline listening, and editorial recommendations.",
+    "typicalPlans": [
+      { "planName": "Premium", "priceUSD": 10.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 17.99, "cycle": "Monthly" },
+      { "planName": "Student", "priceUSD": 5.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "End the account subscription from the billing page before renewal to avoid the next charge.",
+    "savingTip": "Student or family tiers often provide better value than individual plans for group use.",
+    "tags": ["music", "playlist", "radio", "audio", "streaming"],
+    "createdAt": "2026-09-13T00:00:00.000Z"
+  },
+  {
+    "id": "svc-013",
+    "name": "Xbox Game Pass",
+    "category": "Gaming",
+    "description": "Gaming subscription including access to a rotating library of games and online multiplayer features.",
+    "typicalPlans": [
+      { "planName": "Console", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Ultimate", "priceUSD": 16.99, "cycle": "Monthly" },
+      { "planName": "PC", "priceUSD": 9.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Cancel the subscription in your Microsoft account before the renewal date and ensure the membership is not set to auto-renew.",
+    "savingTip": "If you mainly game on one platform, a single-platform plan can be better than the all-in plan.",
+    "tags": ["xbox", "games", "multiplayer", "subscription", "console"],
+    "createdAt": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "svc-014",
+    "name": "PlayStation Plus",
+    "category": "Gaming",
+    "description": "Online multiplayer access and monthly game offerings for PlayStation consoles and services.",
+    "typicalPlans": [
+      { "planName": "Essential", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Extra", "priceUSD": 14.99, "cycle": "Monthly" },
+      { "planName": "Premium", "priceUSD": 17.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Cancel in the PlayStation account management area and disable automatic renewal if it is still on.",
+    "savingTip": "If you only play a few games, the lower-tier plan may be enough without paying for the premium extras.",
+    "tags": ["playstation", "online", "games", "multiplayer", "ps"],
+    "createdAt": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "svc-015",
+    "name": "Nintendo Switch Online",
+    "category": "Gaming",
+    "description": "Online multiplayer for Nintendo Switch players, plus classic game libraries and cloud saves.",
+    "typicalPlans": [
+      { "planName": "Individual", "priceUSD": 3.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 7.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 19.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Review the Nintendo account billing settings and disable renewals before the billing date.",
+    "savingTip": "A family pass can be worthwhile if several people play across the same household.",
+    "tags": ["nintendo", "switch", "online", "games", "multiplayer"],
+    "createdAt": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "svc-016",
+    "name": "Steam Subscription",
+    "category": "Gaming",
+    "description": "A service for game access, premium discounts, or curated content depending on the region and edition.",
+    "typicalPlans": [
+      { "planName": "Steam Wallet Top-up", "priceUSD": 20, "cycle": "Monthly" },
+      { "planName": "Subscription Bundle", "priceUSD": 14.99, "cycle": "Monthly" },
+      { "planName": "Annual Access", "priceUSD": 99.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Use your account payment settings to cancel or disable any recurring credit top-ups.",
+    "savingTip": "Use recurring services only if you actually play enough to justify the monthly fee.",
+    "tags": ["steam", "games", "pc", "subscription", "gaming"],
+    "createdAt": "2026-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "svc-017",
+    "name": "EA Play",
+    "category": "Gaming",
+    "description": "A gaming membership that offers a rotating library of titles, trials, and exclusive rewards.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 4.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 29.99, "cycle": "Yearly" },
+      { "planName": "Pro", "priceUSD": 14.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Manage the subscription from your account billing section and turn off auto-renew.",
+    "savingTip": "Choose the annual plan if you play multiple titles in the same catalog during the year.",
+    "tags": ["ea", "games", "pro", "subscription", "sports"],
+    "createdAt": "2026-09-20T00:00:00.000Z"
+  },
+  {
+    "id": "svc-018",
+    "name": "Google One",
+    "category": "Cloud & Storage",
+    "description": "Cloud storage and device backup service with added support and family sharing options.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 1.99, "cycle": "Monthly" },
+      { "planName": "Standard", "priceUSD": 2.99, "cycle": "Monthly" },
+      { "planName": "Premium", "priceUSD": 9.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Turn off auto-renew from Google account storage settings before the next billing date.",
+    "savingTip": "Choose the smallest plan that still covers your backup needs and avoid paying for huge storage you do not use.",
+    "tags": ["cloud", "storage", "backup", "google", "files"],
+    "createdAt": "2026-09-21T00:00:00.000Z"
+  },
+  {
+    "id": "svc-019",
+    "name": "iCloud+",
+    "category": "Cloud & Storage",
+    "description": "Apple cloud storage with backup, device sync, and privacy features for iPhone and Mac users.",
+    "typicalPlans": [
+      { "planName": "50GB", "priceUSD": 0.99, "cycle": "Monthly" },
+      { "planName": "200GB", "priceUSD": 2.99, "cycle": "Monthly" },
+      { "planName": "2TB", "priceUSD": 9.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Disable auto-renew in the Apple ID subscriptions section and confirm the change.",
+    "savingTip": "You can often reduce storage costs by cleaning duplicates before upgrading to a larger tier.",
+    "tags": ["icloud", "backup", "apple", "storage", "photos"],
+    "createdAt": "2026-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "svc-020",
+    "name": "Dropbox",
+    "category": "Cloud & Storage",
+    "description": "File storage and sync service for work, collaboration, and backup across devices.",
+    "typicalPlans": [
+      { "planName": "Plus", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 16.99, "cycle": "Monthly" },
+      { "planName": "Professional", "priceUSD": 19.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel the subscription from the billing page and verify the renewal is disabled.",
+    "savingTip": "If you mainly need personal storage, a smaller plan or a single-user tier can be enough.",
+    "tags": ["dropbox", "sync", "backup", "files", "cloud"],
+    "createdAt": "2026-09-23T00:00:00.000Z"
+  },
+  {
+    "id": "svc-021",
+    "name": "OneDrive",
+    "category": "Cloud & Storage",
+    "description": "Microsoft cloud storage service with file sync, backup, and productivity integration.",
+    "typicalPlans": [
+      { "planName": "100GB", "priceUSD": 1.99, "cycle": "Monthly" },
+      { "planName": "1TB", "priceUSD": 6.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 9.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Manage the recurring storage charge from your Microsoft account and turn off auto-renew.",
+    "savingTip": "If you already use Microsoft 365, the bundled storage may remove the need for a separate plan.",
+    "tags": ["onedrive", "microsoft", "files", "cloud", "backup"],
+    "createdAt": "2026-09-24T00:00:00.000Z"
+  },
+  {
+    "id": "svc-022",
+    "name": "Backblaze",
+    "category": "Cloud & Storage",
+    "description": "Computer backup service that stores files securely in the cloud for recovery and protection.",
+    "typicalPlans": [
+      { "planName": "Personal", "priceUSD": 6.99, "cycle": "Monthly" },
+      { "planName": "Business", "priceUSD": 7.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 69.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the account billing section and confirm auto-renew has been turned off.",
+    "savingTip": "Annual billing can be a very good deal if you expect to keep the service over the year.",
+    "tags": ["backup", "storage", "cloud", "security", "files"],
+    "createdAt": "2026-09-25T00:00:00.000Z"
+  },
+  {
+    "id": "svc-023",
+    "name": "Microsoft 365",
+    "category": "Software & Productivity",
+    "description": "Office suite and productivity tools for writing, spreadsheet work, presentations, and collaboration.",
+    "typicalPlans": [
+      { "planName": "Personal", "priceUSD": 6.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 69.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the Microsoft account billing page and turn off recurring subscription renewal.",
+    "savingTip": "If the suite is shared across a household, the family plan often saves money compared to multiple personal plans.",
+    "tags": ["office", "docs", "word", "excel", "productivity"],
+    "createdAt": "2026-09-26T00:00:00.000Z"
+  },
+  {
+    "id": "svc-024",
+    "name": "Adobe Creative Cloud",
+    "category": "Software & Productivity",
+    "description": "Creative suite with photo, design, video, and illustration tools used by professionals and students.",
+    "typicalPlans": [
+      { "planName": "Photography", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "All Apps", "priceUSD": 59.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 599.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Hard",
+    "cancelTip": "Cancel in the Adobe account billing portal and check whether the plan is set to auto-renew sooner than expected.",
+    "savingTip": "Choose the photography plan if you only need editing tools and avoid paying for the full creative suite.",
+    "tags": ["adobe", "design", "photos", "video", "creative"],
+    "createdAt": "2026-09-27T00:00:00.000Z"
+  },
+  {
+    "id": "svc-025",
+    "name": "Notion",
+    "category": "Software & Productivity",
+    "description": "Workspace and project management app for notes, planning, tasks, and team collaboration.",
+    "typicalPlans": [
+      { "planName": "Personal", "priceUSD": 8, "cycle": "Monthly" },
+      { "planName": "Plus", "priceUSD": 12, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 96, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Turn off the subscription in the account settings before the next payment date.",
+    "savingTip": "The free version is enough for many casual users, so upgrade only if the advanced features are used regularly.",
+    "tags": ["notes", "productivity", "project management", "workspace", "planning"],
+    "createdAt": "2026-09-28T00:00:00.000Z"
+  },
+  {
+    "id": "svc-026",
+    "name": "Slack",
+    "category": "Software & Productivity",
+    "description": "Team chat, file sharing, and workflow tools for communication and project coordination.",
+    "typicalPlans": [
+      { "planName": "Pro", "priceUSD": 7.25, "cycle": "Monthly" },
+      { "planName": "Business Plus", "priceUSD": 12.5, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 87, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the billing section to stop further charges and confirm the team is aware of the change.",
+    "savingTip": "If the workspace is small, a lower tier or non-workspace alternative may be more cost-effective.",
+    "tags": ["chat", "messaging", "team", "collaboration", "productivity"],
+    "createdAt": "2026-09-29T00:00:00.000Z"
+  },
+  {
+    "id": "svc-027",
+    "name": "Grammarly",
+    "category": "Software & Productivity",
+    "description": "Writing assistant for grammar improvement, tone checks, and polished communication.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 12, "cycle": "Monthly" },
+      { "planName": "Quarterly", "priceUSD": 29.99, "cycle": "Quarterly" },
+      { "planName": "Annual", "priceUSD": 139.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Use the account billing section to cancel premium and remove the auto-renew option.",
+    "savingTip": "The yearly plan is the lowest effective monthly cost if you rely on it for writing work.",
+    "tags": ["writing", "grammar", "editor", "productivity", "proofreading"],
+    "createdAt": "2026-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "svc-028",
+    "name": "Canva Pro",
+    "category": "Software & Productivity",
+    "description": "Design platform with templates, stock media, AI-powered features, and brand tools.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 12.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 119.99, "cycle": "Yearly" },
+      { "planName": "Teams", "priceUSD": 29.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the payment settings page and check if a team subscription is still active.",
+    "savingTip": "Annual billing can offer a much lower average monthly price for regular design use.",
+    "tags": ["design", "templates", "graphics", "presentation", "art"],
+    "createdAt": "2026-10-01T00:00:00.000Z"
+  },
+  {
+    "id": "svc-029",
+    "name": "Coursera Plus",
+    "category": "Education",
+    "description": "Unlimited access to a wide range of online courses across technology, business, and design.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 39, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 399, "cycle": "Yearly" },
+      { "planName": "Specialist", "priceUSD": 79, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Stop auto-renew from the account billing settings and review the course access end date.",
+    "savingTip": "The annual pass works best when you are actively completing multiple courses.",
+    "tags": ["learning", "courses", "education", "online", "certification"],
+    "createdAt": "2026-10-02T00:00:00.000Z"
+  },
+  {
+    "id": "svc-030",
+    "name": "Duolingo Max",
+    "category": "Education",
+    "description": "Language learning app with interactive lessons, explanations, and extra practice sessions.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 12.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 83.99, "cycle": "Yearly" },
+      { "planName": "Family", "priceUSD": 17.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the account subscription settings to prevent the next billing cycle from renewing.",
+    "savingTip": "The free plan can be enough for light study; upgrade only if the premium features are used regularly.",
+    "tags": ["language", "study", "learning", "education", "duolingo"],
+    "createdAt": "2026-10-03T00:00:00.000Z"
+  },
+  {
+    "id": "svc-031",
+    "name": "Skillshare",
+    "category": "Education",
+    "description": "Creative and professional learning platform with classes, workshops, and project-based lessons.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 12.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 119.99, "cycle": "Yearly" },
+      { "planName": "Teams", "priceUSD": 159.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Turn off automated renewal in the billing settings after checking the next renewal date.",
+    "savingTip": "The annual plan is usually the best value if you are actively taking courses throughout the year.",
+    "tags": ["classes", "creative", "learning", "skills", "education"],
+    "createdAt": "2026-10-04T00:00:00.000Z"
+  },
+  {
+    "id": "svc-032",
+    "name": "Udemy",
+    "category": "Education",
+    "description": "Online learning marketplace with a large number of short courses and practical upskilling options.",
+    "typicalPlans": [
+      { "planName": "Course Purchase", "priceUSD": 19.99, "cycle": "Monthly" },
+      { "planName": "Learning Pass", "priceUSD": 29.99, "cycle": "Monthly" },
+      { "planName": "Business", "priceUSD": 199.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel the subscription or review the course pass before the renewal date to avoid accidental charges.",
+    "savingTip": "Only keep the pass if you are using it regularly, otherwise course-by-course purchase can be cheaper.",
+    "tags": ["courses", "learning", "skills", "education", "training"],
+    "createdAt": "2026-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "svc-033",
+    "name": "Audible",
+    "category": "News & Reading",
+    "description": "Audio book and spoken-word subscription for commuting, learning, and entertainment.",
+    "typicalPlans": [
+      { "planName": "Monthly Credits", "priceUSD": 14.95, "cycle": "Monthly" },
+      { "planName": "Premium Plus", "priceUSD": 7.95, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 149.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Manage recurring credits or the premium plan from the Audible account billing page.",
+    "savingTip": "If you consume only a few books a year, a credit pack may be more cost-effective than a recurring plan.",
+    "tags": ["audiobooks", "audio", "reading", "books", "learning"],
+    "createdAt": "2026-10-06T00:00:00.000Z"
+  },
+  {
+    "id": "svc-034",
+    "name": "Kindle Unlimited",
+    "category": "News & Reading",
+    "description": "Subscription for digital books, comics, and reading material without buying each title individually.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 11.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 119.99, "cycle": "Yearly" },
+      { "planName": "Family", "priceUSD": 19.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel in the Amazon account subscriptions area before renewal so the next period is not billed.",
+    "savingTip": "Annual billing usually reduces the effective monthly price if you read often enough.",
+    "tags": ["books", "reading", "kindle", "ebooks", "library"],
+    "createdAt": "2026-10-07T00:00:00.000Z"
+  },
+  {
+    "id": "svc-035",
+    "name": "Scribd",
+    "category": "News & Reading",
+    "description": "Digital library subscription that includes books, magazines, documents, and audiobooks.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 11.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 95.99, "cycle": "Yearly" },
+      { "planName": "Premium", "priceUSD": 22.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "End the recurring plan in your account settings and confirm that the renewal is disabled.",
+    "savingTip": "Consider the annual pass only if you consume enough reading material to make it worthwhile.",
+    "tags": ["ebooks", "magazines", "reading", "books", "library"],
+    "createdAt": "2026-10-08T00:00:00.000Z"
+  },
+  {
+    "id": "svc-036",
+    "name": "The New York Times",
+    "category": "News & Reading",
+    "description": "Investigative journalism and digital news access through a recurring subscription.",
+    "typicalPlans": [
+      { "planName": "Basic Digital", "priceUSD": 4.99, "cycle": "Monthly" },
+      { "planName": "All Access", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 99.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel by managing the recurring subscription in the account billing section before renewal.",
+    "savingTip": "If you only read a few articles a month, a targeted digital bundle may be cheaper than all-access.",
+    "tags": ["news", "journalism", "media", "reading", "digital"],
+    "createdAt": "2026-10-09T00:00:00.000Z"
+  },
+  {
+    "id": "svc-037",
+    "name": "BBC News Premium",
+    "category": "News & Reading",
+    "description": "Digital news product with premium features and ad-free reading for articles and live updates.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 5.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 59.99, "cycle": "Yearly" },
+      { "planName": "Student", "priceUSD": 2.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Review your account subscription settings and disable auto-renew before the next billing date.",
+    "savingTip": "Student deals can reduce the cost if the service is used only occasionally for specific coverage.",
+    "tags": ["news", "media", "reading", "premium", "digital"],
+    "createdAt": "2026-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "svc-038",
+    "name": "Gym membership",
+    "category": "Fitness & Health",
+    "description": "Recurring gym access for exercise classes, equipment usage, and workout facilities.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 29.99, "cycle": "Monthly" },
+      { "planName": "Premium", "priceUSD": 49.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 480, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Check the gym’s cancellation policy and request the stop in writing before the next billing cycle.",
+    "savingTip": "Annual membership can be cheaper than monthly billing if you are using the gym consistently.",
+    "tags": ["gym", "fitness", "health", "wellness", "training"],
+    "createdAt": "2026-10-11T00:00:00.000Z"
+  },
+  {
+    "id": "svc-039",
+    "name": "Headspace",
+    "category": "Fitness & Health",
+    "description": "Mindfulness and guided meditation subscription designed for stress management and daily habits.",
+    "typicalPlans": [
+      { "planName": "Individual", "priceUSD": 12.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 19.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 69.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel the recurring plan from the account settings and confirm there is no remaining trial period.",
+    "savingTip": "An annual plan usually reduces the effective monthly cost if you maintain a regular meditation habit.",
+    "tags": ["meditation", "mindfulness", "wellness", "health", "sleep"],
+    "createdAt": "2026-10-12T00:00:00.000Z"
+  },
+  {
+    "id": "svc-040",
+    "name": "Peloton",
+    "category": "Fitness & Health",
+    "description": "Connected fitness subscription with classes, coaching, and at-home workout routines.",
+    "typicalPlans": [
+      { "planName": "All Access", "priceUSD": 44, "cycle": "Monthly" },
+      { "planName": "Digital", "priceUSD": 12.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 396, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Follow the cancellation flow in the account settings and check if the membership requires a notice period.",
+    "savingTip": "If you use a bike or treadmill, the digital plan may not be enough; compare the true usage before renewing.",
+    "tags": ["fitness", "workout", "health", "cycling", "training"],
+    "createdAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "svc-041",
+    "name": "Fitbit Premium",
+    "category": "Fitness & Health",
+    "description": "Subscription for advanced health insights, programs, and monitoring features for trackers.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 79.99, "cycle": "Yearly" },
+      { "planName": "Family", "priceUSD": 14.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel the subscription from the Fitbit account before next billing and verify it is not tied to a device plan.",
+    "savingTip": "If the analytics are not used, the free tier may be enough for basic activity tracking.",
+    "tags": ["fitness", "tracker", "health", "wearable", "monitoring"],
+    "createdAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "svc-042",
+    "name": "Yoga class pass",
+    "category": "Fitness & Health",
+    "description": "A recurring pass for in-person or online classes such as yoga, pilates, and mindfulness sessions.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 39.99, "cycle": "Monthly" },
+      { "planName": "Class Pack", "priceUSD": 79.99, "cycle": "Quarterly" },
+      { "planName": "Annual", "priceUSD": 360, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Review the studio's cancellation terms and ask for a stop before the renewal date to avoid a full cycle charge.",
+    "savingTip": "A class pack can be a better value than monthly unlimited access if you attend occasionally.",
+    "tags": ["yoga", "fitness", "health", "classes", "wellness"],
+    "createdAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "svc-043",
+    "name": "Mobile data plan",
+    "category": "Utilities & Bills",
+    "description": "Recurring mobile connectivity charge for phone calls, messaging, and data consumption.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 20, "cycle": "Monthly" },
+      { "planName": "Unlimited", "priceUSD": 45, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 75, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Contact the provider before the cycle closes or switch to a prepaid plan to avoid an automatic renewal charge.",
+    "savingTip": "Review your actual data use each month and downgrade if you are paying for more speed or data than needed.",
+    "tags": ["mobile", "phone", "data", "internet", "utility"],
+    "createdAt": "2026-10-16T00:00:00.000Z"
+  },
+  {
+    "id": "svc-044",
+    "name": "Home broadband",
+    "category": "Utilities & Bills",
+    "description": "Recurring home internet bill covering broadband connection, routing, and service support.",
+    "typicalPlans": [
+      { "planName": "Standard", "priceUSD": 40, "cycle": "Monthly" },
+      { "planName": "Fibre", "priceUSD": 60, "cycle": "Monthly" },
+      { "planName": "Business", "priceUSD": 89, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Ask the provider about a no-commitment month or switch to a lower-speed package if your usage does not need fibre speed.",
+    "savingTip": "A lower-speed plan or a bundled mobile package can significantly cut the monthly cost.",
+    "tags": ["internet", "home", "broadband", "wifi", "utility"],
+    "createdAt": "2026-10-17T00:00:00.000Z"
+  },
+  {
+    "id": "svc-045",
+    "name": "Electricity bill",
+    "category": "Utilities & Bills",
+    "description": "Recurring household power payment based on usage, tariffs, and any fixed daily or service charges.",
+    "typicalPlans": [
+      { "planName": "Basic Usage", "priceUSD": 35, "cycle": "Monthly" },
+      { "planName": "Average Home", "priceUSD": 55, "cycle": "Monthly" },
+      { "planName": "High Demand", "priceUSD": 80, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Review the meter readings and compare tariffs to avoid paying for a fixed monthly rate that does not fit your usage.",
+    "savingTip": "Simple household habit changes such as using efficient appliances can reduce the monthly total.",
+    "tags": ["power", "electricity", "utility", "home", "bill"],
+    "createdAt": "2026-10-18T00:00:00.000Z"
+  },
+  {
+    "id": "svc-046",
+    "name": "Water bill",
+    "category": "Utilities & Bills",
+    "description": "Monthly or quarterly household water charge covering supply and local service fees.",
+    "typicalPlans": [
+      { "planName": "Small Home", "priceUSD": 18, "cycle": "Monthly" },
+      { "planName": "Family Home", "priceUSD": 32, "cycle": "Monthly" },
+      { "planName": "Quarterly Batch", "priceUSD": 90, "cycle": "Quarterly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Check the meter reading and ask whether the fixed charge can be reduced or spread over a longer cycle.",
+    "savingTip": "Lowering daily water use through efficient fixtures can reduce the recurring utility cost.",
+    "tags": ["water", "utility", "home", "bill", "supply"],
+    "createdAt": "2026-10-19T00:00:00.000Z"
+  },
+  {
+    "id": "svc-047",
+    "name": "Car insurance",
+    "category": "Finance & Insurance",
+    "description": "Recurring vehicle cover for accident, damage, legal liability, and roadside assistance services.",
+    "typicalPlans": [
+      { "planName": "Basic Cover", "priceUSD": 45, "cycle": "Monthly" },
+      { "planName": "Comprehensive", "priceUSD": 75, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 690, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Hard",
+    "cancelTip": "Review the policy renewal date and ask the insurer for a comparison quote before the coverage renews.",
+    "savingTip": "Keeping a clean claims record and increasing the voluntary excess can reduce the monthly premium.",
+    "tags": ["insurance", "car", "vehicle", "finance", "risk"],
+    "createdAt": "2026-10-20T00:00:00.000Z"
+  },
+  {
+    "id": "svc-048",
+    "name": "Home insurance",
+    "category": "Finance & Insurance",
+    "description": "Coverage for property damage, theft, and certain resident liabilities for a home or apartment.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 35, "cycle": "Monthly" },
+      { "planName": "Standard", "priceUSD": 55, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 540, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Hard",
+    "cancelTip": "Check the effective date and ask the insurer whether you can switch to a lower-cover package without gaps.",
+    "savingTip": "A higher deductible often lowers the recurring premium if you are comfortable with more self-insurance risk.",
+    "tags": ["insurance", "home", "property", "finance", "risk"],
+    "createdAt": "2026-10-21T00:00:00.000Z"
+  },
+  {
+    "id": "svc-049",
+    "name": "Life insurance",
+    "category": "Finance & Insurance",
+    "description": "Recurring plan providing a payout to dependants when the insured person passes away.",
+    "typicalPlans": [
+      { "planName": "Coverage 20k", "priceUSD": 15, "cycle": "Monthly" },
+      { "planName": "Coverage 50k", "priceUSD": 30, "cycle": "Monthly" },
+      { "planName": "Coverage 100k", "priceUSD": 55, "cycle": "Monthly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Review ongoing policy terms and compare renewal quotes before deciding whether to keep or reduce the cover.",
+    "savingTip": "Comparing different providers each year can lower costs without changing your essential protection.",
+    "tags": ["insurance", "life", "finance", "policy", "protection"],
+    "createdAt": "2026-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "svc-050",
+    "name": "Credit card annual fee",
+    "category": "Finance & Insurance",
+    "description": "Yearly payment for premium card benefits, travel rewards, and higher spending limits.",
+    "typicalPlans": [
+      { "planName": "Low fee premium", "priceUSD": 95, "cycle": "Yearly" },
+      { "planName": "Travel rewards", "priceUSD": 250, "cycle": "Yearly" },
+      { "planName": "Ultra premium", "priceUSD": 550, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Check whether the annual fee is still justified by the rewards and spend level before renewing it.",
+    "savingTip": "A no-fee alternative can produce similar value if you are not using the premium benefits.",
+    "tags": ["credit", "finance", "card", "rewards", "fees"],
+    "createdAt": "2026-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "svc-051",
+    "name": "Mobile wallet plan",
+    "category": "Finance & Insurance",
+    "description": "Recurring wallet or payment account service for digital transfers, savings, or premium account features.",
+    "typicalPlans": [
+      { "planName": "Basic Wallet", "priceUSD": 2.99, "cycle": "Monthly" },
+      { "planName": "Premium Wallet", "priceUSD": 8.99, "cycle": "Monthly" },
+      { "planName": "Business", "priceUSD": 19.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Disable the recurring wallet premium add-on from the app subscriptions menu before the next billing date.",
+    "savingTip": "You may not need the premium wallet tier if you are only using basic payment and transfer features.",
+    "tags": ["wallet", "finance", "payments", "mobile", "digital"],
+    "createdAt": "2026-10-24T00:00:00.000Z"
+  },
+  {
+    "id": "svc-052",
+    "name": "Amazon Prime",
+    "category": "Shopping & Delivery",
+    "description": "Annual or monthly delivery and shopping service that often includes video and other bundled benefits.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 14.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 139.99, "cycle": "Yearly" },
+      { "planName": "Student", "priceUSD": 6.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel from the Amazon account subscriptions page and check if the renewal is set for a future date.",
+    "savingTip": "If you rarely use delivery benefits, a one-off delivery plan may be cheaper than keeping Prime active year-round.",
+    "tags": ["shopping", "delivery", "prime", "amazon", "orders"],
+    "createdAt": "2026-10-25T00:00:00.000Z"
+  },
+  {
+    "id": "svc-053",
+    "name": "Delivery pass",
+    "category": "Shopping & Delivery",
+    "description": "A recurring pass for free or reduced delivery fees from grocery or local shopping services.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Quarterly", "priceUSD": 24.99, "cycle": "Quarterly" },
+      { "planName": "Annual", "priceUSD": 89.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Pause or cancel the pass if you are no longer placing orders regularly and check the provider's rules for retaining benefits.",
+    "savingTip": "If you can bundle deliveries or buy in larger orders, a pass may be unnecessary despite the convenience.",
+    "tags": ["delivery", "shopping", "groceries", "online", "pass"],
+    "createdAt": "2026-10-26T00:00:00.000Z"
+  },
+  {
+    "id": "svc-054",
+    "name": "Meal kit subscription",
+    "category": "Shopping & Delivery",
+    "description": "Recurring food service that delivers ingredients and recipes for home cooking and convenience.",
+    "typicalPlans": [
+      { "planName": "Mini Box", "priceUSD": 39.99, "cycle": "Weekly" },
+      { "planName": "Family Box", "priceUSD": 59.99, "cycle": "Weekly" },
+      { "planName": "Monthly Plan", "priceUSD": 199.99, "cycle": "Monthly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Skip a delivery or cancel in the account settings before the next cut-off date to avoid being charged for the next box.",
+    "savingTip": "Pausing for one or two weeks can save money if your schedule gets busy and the meals are not being used.",
+    "tags": ["meal", "food", "delivery", "shopping", "grocery"],
+    "createdAt": "2026-10-27T00:00:00.000Z"
+  },
+  {
+    "id": "svc-055",
+    "name": "Grocery delivery pass",
+    "category": "Shopping & Delivery",
+    "description": "Recurring fee for faster or free delivery of groceries and household essentials.",
+    "typicalPlans": [
+      { "planName": "Standard", "priceUSD": 4.99, "cycle": "Monthly" },
+      { "planName": "Plus", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 79.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Remove the auto-renew option in the app and review your delivery habits before paying for the next cycle.",
+    "savingTip": "If you do not use the pass every week, the fee may be more expensive than occasional delivery charges.",
+    "tags": ["grocery", "shopping", "delivery", "food", "pass"],
+    "createdAt": "2026-10-28T00:00:00.000Z"
+  },
+  {
+    "id": "svc-056",
+    "name": "Local streaming bundle",
+    "category": "Other",
+    "description": "A bundle of regional TV, news, and entertainment packages sold as a single recurring service.",
+    "typicalPlans": [
+      { "planName": "Standard", "priceUSD": 19.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 29.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 239.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Check the bundle's cancellation date and ask whether the provider can pause the package instead of fully cancelling it.",
+    "savingTip": "A single-package bundle can be valuable if you watch several channels, but it can be wasteful if you only use one service.",
+    "tags": ["tv", "bundle", "regional", "entertainment", "streaming"],
+    "createdAt": "2026-10-29T00:00:00.000Z"
+  },
+  {
+    "id": "svc-057",
+    "name": "Digital magazine bundle",
+    "category": "Other",
+    "description": "Recurring access to multiple publication titles and premium editorial features in one bundle.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 8.99, "cycle": "Monthly" },
+      { "planName": "Quarterly", "priceUSD": 23.99, "cycle": "Quarterly" },
+      { "planName": "Annual", "priceUSD": 79.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Cancel or pause the bundle before the renewal date to avoid paying for titles you no longer read.",
+    "savingTip": "Only keep the bundle if you genuinely read several magazines or publications each month.",
+    "tags": ["magazine", "news", "reading", "media", "digital"],
+    "createdAt": "2026-10-30T00:00:00.000Z"
+  },
+  {
+    "id": "svc-058",
+    "name": "Wellness app bundle",
+    "category": "Other",
+    "description": "Recurring combination of fitness, mindfulness, and habit-building tools delivered in one platform.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 14.99, "cycle": "Monthly" },
+      { "planName": "Quarterly", "priceUSD": 39.99, "cycle": "Quarterly" },
+      { "planName": "Annual", "priceUSD": 149.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Pause or cancel from the account page and check if the billing cycle is set to renew automatically.",
+    "savingTip": "If you only use one or two features, a single-purpose app may be cheaper than the bundle.",
+    "tags": ["wellness", "fitness", "health", "habit", "bundle"],
+    "createdAt": "2026-10-31T00:00:00.000Z"
+  },
+  {
+    "id": "svc-059",
+    "name": "Cloud backup subscription",
+    "category": "Other",
+    "description": "Recurring service for securing photos, files, and device backups across multiple gadgets.",
+    "typicalPlans": [
+      { "planName": "Basic", "priceUSD": 3.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 11.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 99.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Turn off auto-renew from the storage portal and check that local backups are not being erased unexpectedly.",
+    "savingTip": "If you already back up to an existing service, you may not need a second one.",
+    "tags": ["cloud", "backup", "storage", "photos", "device"],
+    "createdAt": "2026-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "svc-060",
+    "name": "Professional tool suite",
+    "category": "Other",
+    "description": "A bundled platform for writing, planning, or project work delivered as a recurring digital service.",
+    "typicalPlans": [
+      { "planName": "Starter", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Team", "priceUSD": 29.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 299.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Medium",
+    "cancelTip": "Cancel the team or professional seat from the subscription page and check whether it is tied to a company account.",
+    "savingTip": "If only one person uses the suite, a single-seat plan often offers more value than the team tier.",
+    "tags": ["productivity", "tools", "professional", "workspace", "software"],
+    "createdAt": "2026-11-02T00:00:00.000Z"
+  },
+  {
+    "id": "svc-061",
+    "name": "Amazon Music Unlimited",
+    "category": "Music",
+    "description": "Music streaming service with station radio, offline listening, and voice-controlled playback features.",
+    "typicalPlans": [
+      { "planName": "Single", "priceUSD": 9.99, "cycle": "Monthly" },
+      { "planName": "Family", "priceUSD": 14.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 99.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Disable auto-renew in the Amazon account subscription settings before the next billing date.",
+    "savingTip": "Compare family and single-user prices to see whether shared music listening is better value.",
+    "tags": ["music", "radio", "streaming", "podcast", "audio"],
+    "createdAt": "2026-11-03T00:00:00.000Z"
+  },
+  {
+    "id": "svc-062",
+    "name": "LinkedIn Learning",
+    "category": "Education",
+    "description": "Professional and portfolio-building learning platform covering digital skills, business, and leadership topics.",
+    "typicalPlans": [
+      { "planName": "Monthly", "priceUSD": 29.99, "cycle": "Monthly" },
+      { "planName": "Annual", "priceUSD": 239.99, "cycle": "Yearly" },
+      { "planName": "Team", "priceUSD": 379.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": true,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "End the recurring plan from the profile subscription settings and verify the next renewal date.",
+    "savingTip": "The annual plan offers the best value if you are actively completing several courses each quarter.",
+    "tags": ["learning", "career", "skills", "education", "professional"],
+    "createdAt": "2026-11-04T00:00:00.000Z"
+  },
+  {
+    "id": "svc-063",
+    "name": "Gas utility plan",
+    "category": "Utilities & Bills",
+    "description": "Recurring household gas supply payment for heating, hot water, and cooking needs.",
+    "typicalPlans": [
+      { "planName": "Standard", "priceUSD": 24, "cycle": "Monthly" },
+      { "planName": "Higher Usage", "priceUSD": 48, "cycle": "Monthly" },
+      { "planName": "Quarterly Batch", "priceUSD": 120, "cycle": "Quarterly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Review the tariff and compare alternative rates before the renewal so you can avoid paying for a higher-cost plan.",
+    "savingTip": "Regular boiler and appliance checks can reduce monthly household gas consumption and overall cost.",
+    "tags": ["gas", "utility", "home", "heating", "bill"],
+    "createdAt": "2026-11-05T00:00:00.000Z"
+  },
+  {
+    "id": "svc-064",
+    "name": "Pet food delivery",
+    "category": "Shopping & Delivery",
+    "description": "Recurring service for regular pet food and supplies delivered to the home on a schedule.",
+    "typicalPlans": [
+      { "planName": "Small Pet", "priceUSD": 12.99, "cycle": "Monthly" },
+      { "planName": "Large Pet", "priceUSD": 24.99, "cycle": "Monthly" },
+      { "planName": "Annual Bundle", "priceUSD": 239.99, "cycle": "Yearly" }
+    ],
+    "freeTrial": false,
+    "cancelDifficulty": "Easy",
+    "cancelTip": "Skip the next delivery or cancel the recurring order before the cut-off date to avoid the next shipment charge.",
+    "savingTip": "A flexible plan can be cheaper than auto-shipping if your pet's usage varies month to month.",
+    "tags": ["pet", "delivery", "shopping", "food", "home"],
+    "createdAt": "2026-11-06T00:00:00.000Z"
+  }
+]
